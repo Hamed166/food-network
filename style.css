@@ -41,10 +41,11 @@ ul li{
 }
 .logo-p2{
     font-size: 20px;
-    font-family: ;
+    font-family: 'Shadows Into Light', cursive;
 }
 .nav-items ul li{
     display: inline-block;
+    
 }
 .nav-items ul li a{
     color: #fff;
@@ -112,9 +113,7 @@ ul li{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.aboutUs .banner-item {
-    
-}
+
 .aboutUs .banner-item h2{
     color: grey;
     padding-top:90px;
