@@ -8,6 +8,9 @@ h1{
 h2{
     font-size: 40px;
 }
+h3{
+    font-size: 30px;
+}
 a{
     text-decoration: none;
 }
@@ -28,7 +31,7 @@ ul li{
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #746e6e;
+    background-color: #5e5d5b;
     box-shadow: 2px 2px 12px grey;
 }
 .logo{
@@ -41,14 +44,14 @@ ul li{
 }
 .logo-p2{
     font-size: 20px;
-    font-family: 'Shadows Into Light', cursive;
+    color: #afacac;
 }
 .nav-items ul li{
     display: inline-block;
     
 }
 .nav-items ul li a{
-    color: #fff;
+    color: #fdfcfc;
     margin: 5px;
     padding: 0 5px;
     height: 30px;
@@ -63,7 +66,7 @@ ul li{
     margin-right:150px;
 } */
 .menu-bar{
-    border-bottom: 4px solid red;
+    border-bottom: 4px solid #b30a0a;
     border-width: medium;
 }
 .menu-btn{
@@ -133,7 +136,7 @@ ul li{
 .recipe-content{
     text-align: center;
     color: grey;
-    margin: 30px 450px;
+    margin: 30px 430px;
 }
 #recipe .divDesign{
     width: 100%;
@@ -144,9 +147,11 @@ ul li{
 .recipe-item{
     box-shadow: 2px 2px 15px gray;
     border-radius: 30px;
-    width: 400px;
+    width: 23%;
     padding: 20px 20px;
     margin-left: 5%;
+    font-family: 'Spartan', sans-serif;
+    text-align: justify;
 }
 
 /*footer part css*/
@@ -164,4 +169,32 @@ ul li{
 .footerDesign p{
     color: #fff;
     padding-top: 30px;
+}
+
+/*deals part css*/
+
+
+    
+.ex-deals-content{
+    text-align: center;
+    color: grey;
+    margin: 30px 430px;
+}
+
+.ex-deals-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.ex-deals-item p{
+    padding-bottom:30px;
+}
+.dealsImg{
+    width: 90%;
+    border-radius: 5px;
+}
+.min-text{
+    font-size: 12px;
+    margin-top: 60px;
 }
