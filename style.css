@@ -41,7 +41,11 @@ h2{
 /*about me css*/
 .aboutUs{
     background-image: url(images/shapes/7.png);
-    background-repeat:no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.aboutUs .banner-item h2{
+    color: grey;
 }
 .aboutUs .banner-item p{
     margin-bottom: 100px;
@@ -51,4 +55,25 @@ h2{
     width: 50%;
     margin-left: 20%;
     margin-top: 5%;
+}
+
+/*recipe part css*/
+
+.recipe-content{
+    text-align: center;
+    color: grey;
+    margin: 30px 450px;
+}
+#recipe .divDesign{
+    width: 100%;
+}
+.recipe-item img{
+    width: 100%;
+}
+.recipe-item{
+    box-shadow: 2px 2px 15px gray;
+    border-radius: 30px;
+    width: 400px;
+    padding: 20px 20px;
+    margin-left: 5%;
 }
