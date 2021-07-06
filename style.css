@@ -5,11 +5,15 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .base-color{
     color: #ffbc0d;
 }
-.banner{
+.divDesign{
     display: flex;
+    margin-bottom: 150px;
 }
 .banner-item{
     width: 50%;
@@ -23,12 +27,28 @@ h1{
 }
 .banner-item img{
     width: 90%;
+
 }
-.banner-btn{
+.fn-btn{
     background-color: #ffbc0d;
     padding: 15px 45px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: 500;
     color: black;
+}
+
+/*about me css*/
+.aboutUs{
+    background-image: url(images/shapes/7.png);
+    background-repeat:no-repeat;
+}
+.aboutUs .banner-item p{
+    margin-bottom: 100px;
+    padding-right: 20%;
+}
+.banner-item .aboutImg{
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 5%;
 }
